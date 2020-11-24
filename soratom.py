@@ -18,7 +18,7 @@ driver.find_element_by_xpath('//*[@id="wd-_topnews"]/div/div[3]/div/div/div[1]/a
 driver.switch_to.window(driver.window_handles[1])
 
 
-'''Формирование списков с данными для засение в эксель таблицу(строки 20-40)'''
+'''Формирование списков с данными для занесения в эксель таблицу(строки 20-40)'''
 kurs_dollar = driver.find_element_by_xpath('//*[@id="neo-page"]/div/div[2]/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div[2]').text.split('\n')
 del kurs_dollar[0:3]
 
